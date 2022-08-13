@@ -161,3 +161,153 @@ nav>img{
     left: -10.5rem;
 }
 
+
+/* responsive */
+.burger{
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    margin-right: 10px ;
+    }
+    
+    .burger>div{
+        height: 3px;
+        width: 30px;
+        background-color: #1f1f1f;
+    }
+
+
+    @media screen and (max-width:1200px) {
+
+        nav>img {
+            height: 38px;
+        }
+
+        .imgs-div>img:nth-child(3) {
+            height: 650px;
+        }
+
+        body::before {
+            height: 755px;
+            width: 755px;
+        }
+
+        .vector-img{
+            height: 115px;
+            left: -10rem;
+            top: 35rem;
+        }
+
+        .vector-dot {
+            top: 35.5rem;
+            height: 22px;
+            left: -6.5rem;
+        }
+
+        
+.left-section>h1 {
+    font-size: 5.3rem;
+}
+
+.left-section>h4 {
+    margin-top: 18px;
+}
+
+.learn-more-btn{
+    margin-top: 25px;
+    font-size: 1.7rem;
+}
+
+.nav-items{
+    font-size: 18px;
+}
+
+.signin-btn{
+    margin-right: 0px;
+}
+        
+    }
+
+
+  
+ @media screen and (max-width:900px) {
+    .nav-item{
+        margin-left: 35px;
+    }
+    .nav-items{
+        font-size: 16px;
+    }
+
+    .signin-btn{
+        margin-right: 0;
+        font-size: 17px;
+    }
+    body::before {
+        height: 610px;
+        width: 610px;
+    }
+    .imgs-div>img:nth-child(3) {
+        height:500px;
+    }
+
+    .left-section{
+        padding-top: 80px;
+    }
+    .left-section>h1 {
+        font-size: 5rem;
+    }
+    .left-section>h4 {
+        width: 300px;
+    }
+    .vector-img{
+        left: -7rem;
+        top: 31rem;
+        height:100px;
+    }
+    .vector-dot {
+        top: 31.5rem;
+        height: 20px;
+        left: -3.5rem;
+    }
+ }   
+
+
+ @media screen and (max-width:750px) {
+    body::before {
+        height: 330px;
+        width: 330px;
+    }
+    nav>img {
+        height: 30px;
+    }
+    .burger{
+        display: flex;
+        margin-right:0px;
+    }
+    .nav-items{
+        display: none;
+    }
+    nav{
+        position: relative;
+    }
+    .signin-btn{
+        position: absolute;
+        right: 70px;
+        font-size: 15px ;
+    }
+    .imgs-div>img:nth-child(3) {
+        height: 150px;
+    }
+    .left-section>h1 {
+        font-size: 4rem;
+    }
+    .left-section>h4 {
+        width: 250px;
+        font-size: 14px;
+    }
+
+    .learn-more-btn{
+        width: 200px;
+        font-size: 1rem;
+    }
+ }
